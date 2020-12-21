@@ -1,0 +1,16 @@
+{
+  "name": "@rhg135/interactives",
+  "private": true,
+  "main": "src/init.js",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "tailwindcss": "^2.0.2"
+  },
+  "scripts": {
+      "start": "parcel start src/index.html"
+  }
+}
